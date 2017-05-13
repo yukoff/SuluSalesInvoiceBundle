@@ -8,14 +8,14 @@
     "authors": [
         {
             "name": "Sulu Community",
-            "homepage": "https://github.com/sulu-cmf/SuluSalesInvoiceBundle/contributors"
+            "homepage": "https://github.com/sulu/SuluSalesInvoiceBundle/contributors"
         }
     ],
     "require": {
         "php": ">=5.4",
-        "doctrine/orm": "2.4.*",
-        "stof/doctrine-extensions-bundle": "1.1.*",
-        "willdurand/hateoas-bundle": "0.3.*",
+        "doctrine/orm": "^2.4",
+        "stof/doctrine-extensions-bundle": "^1.1",
+        "willdurand/hateoas-bundle": "^0.3||^1.1",
         "sulu/sulu": "dev-develop",
         "sulu/admin-bundle": "dev-develop",
         "sulu/product-bundle": "dev-develop",
@@ -26,19 +26,19 @@
         "sulu/sales-order-bundle": "dev-develop"
     },
     "require-dev": {
-        "sensio/framework-extra-bundle":  "~3.0",
-        "symfony/symfony": "2.5.*",
-        "doctrine/doctrine-bundle": "1.2.*",
-        "symfony/monolog-bundle": "2.4.*",
-        "phpunit/phpunit": "3.7.*",
+        "sensio/framework-extra-bundle":  "^3.0",
+        "symfony/symfony": "^2.6",
+        "doctrine/doctrine-bundle": "^1.2",
+        "symfony/monolog-bundle": "^2.4||^3.0",
+        "phpunit/phpunit": "^4.8",
         "sulu/test-bundle": "dev-develop",
         "sulu/tag-bundle": "dev-develop",
         "sulu/website-bundle": "dev-develop",
         "sulu/category-bundle": "dev-develop",
         "sulu/media-bundle": "dev-develop",
 
-        "symfony-cmf/routing-bundle": "1.2.*",
-        "liip/theme-bundle": "1.1.*"
+        "symfony-cmf/routing-bundle": "^1.2||^2.0",
+        "liip/theme-bundle": "^1.1"
     },
     "autoload": {
         "psr-0": {
